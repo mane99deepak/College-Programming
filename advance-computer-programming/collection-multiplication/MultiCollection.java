@@ -1,3 +1,8 @@
+/*
+	Multiply 34 Bit Number
+	Using Collection Only
+*/
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -111,7 +116,7 @@ public class MultiCollection {
 			//System.out.print(" " + listTotal.get(i));
 			answerString += listTotal.get(i);
 		}
-		
+
 		Integer answer = Integer.parseInt(answerString, 2);
 		System.out.println(answer);
 	}
